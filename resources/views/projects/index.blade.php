@@ -58,7 +58,7 @@
                         {{-- FOLLOW-UP BUTTON --}}
                         <td class="px-4 py-3">
                             <a href="{{ route('projects.followup.add', $p->id) }}"
-                                class="bg-blue-600  px-3 py-2 rounded-md hover:bg-blue-700 transition flex justify-start items-center">
+                                class="bg-blue-600  px-3 py-2 rounded-md hover:bg-blue-700 transition flex justify-start items-center text-white">
 
                                 {{-- - ICON HERE - --}}
                                 <!-- Replace below with your selected SVG -->
@@ -74,7 +74,7 @@
 
                         {{-- ACTION BUTTONS --}}
                         <td class="px-4 py-3">
-                            <div class="grid grid-cols-1 gap-2 flex">
+                            <div class="flex gap-2 flex text-white">
 
                                 <a href="{{ route('projects.show', $p) }}"
                                     class="w-full flex justify-center items-center px-4 py-2 rounded-md bg-black hover:bg-gray-900 transition">

@@ -42,12 +42,12 @@
                         <td class="px-4 py-3 flex gap-2">
 
                             <a href="{{ route('clients.show', $client->id) }}"
-                                class="px-3 py-1 bg-blue-600 rounded hover:bg-blue-700 transition">
+                                class="px-3 py-1 bg-blue-600 rounded hover:bg-blue-700 transition text-white">
                                 View
                             </a>
 
                             <a href="{{ route('clients.edit', $client->id) }}"
-                                class="px-3 py-1 bg-black rounded hover:bg-gray-900 transition">
+                                class="px-3 py-1 bg-black rounded hover:bg-gray-900 transition text-white">
                                 Edit
                             </a>
 
@@ -57,7 +57,7 @@
                                 @csrf
                                 @method('DELETE')
 
-                                <button class="px-3 py-1 bg-red-600 rounded hover:bg-red-700 transition">
+                                <button class="px-3 py-1 bg-red-600 rounded hover:bg-red-700 transition text-white">
                                     Delete
                                 </button>
                             </form>
